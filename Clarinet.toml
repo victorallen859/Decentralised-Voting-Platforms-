@@ -1,0 +1,25 @@
+[project]
+name = "Decentralised-Voting-Platforms-"
+description = "Clarinet project for Decentralised-Voting-Platforms-"
+authors = ["zoerichardson229 <zoerichardson229@gmail.com>"]
+telemetry = false
+
+[contracts.Decentralised-Voting-Platforms]
+path = "contracts/Decentralised-Voting-Platforms.clar"
+clarity_version = 3
+epoch = "3.0"
+
+[contracts.simple-poll]
+path = "contracts/simple-poll.clar"
+clarity_version = 3
+epoch = "3.0"
+
+[contracts.voting-analytics]
+path = "contracts/voting-analytics.clar"
+clarity_version = 3
+epoch = "3.0"
+
+[deployments.devnet]
+Decentralised-Voting-Platforms = "deployer"
+simple-poll = "deployer"
+voting-analytics = "deployer"
