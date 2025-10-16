@@ -1,0 +1,10 @@
+[project]
+name = "Decentralised-Voting-Platforms-"
+description = "Decentralized Voting Platform with Analytics Tracking"
+authors = ["victorallen859 <victorallen859@gmail.com>"]
+telemetry = false
+
+[contracts.voting-analytics]
+path = "contracts/voting-analytics.clar"
+clarity_version = 3
+epoch = "3.0"
