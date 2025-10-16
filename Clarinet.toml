@@ -8,6 +8,3 @@ telemetry = false
 path = "contracts/voting-analytics.clar"
 clarity_version = 3
 epoch = "3.0"
-
-[deployments.devnet]
-voting-analytics = "deployer"
